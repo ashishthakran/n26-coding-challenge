@@ -1,0 +1,13 @@
+server:
+  port: 9040
+  contextPath: /challenge
+logging:
+  file: logs/challenge-logging.log
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    com.n26.coding: ERROR
+spring:
+  application:
+    name: challenge
+    version: 1.0.0
